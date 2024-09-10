@@ -226,4 +226,17 @@ margin-bottom: 15px;
     justify-content: center;
     gap: 20px;
   }
+
   /* GO TO TOP */
+
+ /* Responsive Design  */
+  @media all and (max-width: 1023px) {
+    .container {
+      width: 80%;
+    }
+  }
+  @media all and (max-width: 767px) {
+    .container {
+      width: 100%;
+    }
+  }
